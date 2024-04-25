@@ -1,0 +1,113 @@
+###>><</CODEEBOX_SEPARATOR
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shmoogle - Search Engine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo h1 {
+            color: #4CAF50; /* Green */
+            font-size: 36px;
+            margin: 5px 0;
+        }
+        .logo p {
+            color: #FF9800; /* Orange */
+            font-size: 16px;
+            margin: 0;
+        }
+        .cse-search-form {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .cse-search-form input[type="text"] {
+            width: 70%;
+            padding: 12px;
+            border: 1px solid #673AB7; /* Purple */
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+        }
+        .cse-search-form input[type="submit"] {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .cse-search-form input[type="submit"]:hover {
+            background-color: #388E3C; /* Darker Green */
+        }
+        .results {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .result {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #673AB7; /* Purple */
+        }
+        .result:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        .result h3 {
+            margin: 0;
+            color: #4CAF50; /* Green */
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .result p {
+            color: #FF9800; /* Orange */
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>Shmoogle</h1>
+            <p>A better way to search</p>
+        </div>
+        <div class="cse-search-form">
+            <!-- Google Custom Search Engine -->
+            <script async src="https://cse.google.com/cse.js?cx=67ac3158a164c4bbc"></script>
+            <div class="gcse-search"></div>
+        </div>
+        <div class="results">
+            <!-- Results will be displayed here -->
+            <!-- Result titles will be populated dynamically -->
+        </div>
+    </div>
+</body>
+</html>
+
+###>><</CODEEBOX_SEPARATOR
+
+###>><</CODEEBOX_SEPARATOR
+
+  
